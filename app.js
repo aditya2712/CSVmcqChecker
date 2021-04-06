@@ -42,7 +42,7 @@ const answerKey = {
 var correct = 0, wrong = 0, score = 0;
 var output = [];
 
-fs.createReadStream('./PiRatesQuestions-1.csv')
+fs.createReadStream('./in.csv')
 .pipe(csv())
 .on('data', function(data){
     correct = 0; wrong = 0;
