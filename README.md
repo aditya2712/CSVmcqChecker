@@ -3,10 +3,12 @@
 
 This script Takes a csv file as input and generates a out.csv file output, that contains name, scholar ID, and marks scored by candidate.
 ## Features
+- With small tweeks in app.js, you can customize the results according to you!
 - Also accounts for negative marking
 - Pure nodeJS script
 - User defined ANSWER KEY using JS Object
 - Very Fast! It takes no time to generate the required output 
+
 
 ## Motivation
 > I was conducting a math MCQ contest using google forms, which also had 
